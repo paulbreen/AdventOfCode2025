@@ -37,6 +37,7 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 
 ## Correct Results
 Simply given the problem, are the agents able to return the correct results via chat?
+
 Prompt : "Help me solve the following problem, what is the correct answer to all puzzles?"
 
 | Day | Claude Web | Google Gemini  | ChatGPT 5.1 |
