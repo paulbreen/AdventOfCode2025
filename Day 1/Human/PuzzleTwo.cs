@@ -2,12 +2,12 @@
 {
     public static class PuzzleTwo
     {
-        public static int Solve(string path, int max, int startPosition)
+        public static int Solve(int max, int startPosition, string[] rotations)
         {
             var position = startPosition;
             var counter = 0;
 
-            foreach (var item in File.ReadLines(path))
+            foreach (var item in rotations)
             {
                 var direction = item.ToLower().First();
                 var steps = int.Parse(item[1..]);
