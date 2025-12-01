@@ -20,7 +20,7 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 
 | Day | Claude CLI | Google Gemini | Human | ChatGPT |
 |-----|------------|---------------|-------|---------|
-| **Day 1** | Python<br>30.34ms |- |** 🟢 30.1ms** |- |
+| **Day 1** | Python<br>30.34ms |- |C# <br> 30.1ms |-Python <br> ** 🟢 23.7364 ms** |
 | **Day 2** | - | - | - | - |
 | **Day 3** | - | - | - | - |
 | **Day 4** | - | - | - | - |
