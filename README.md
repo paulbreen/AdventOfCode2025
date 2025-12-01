@@ -16,9 +16,9 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 - **ChatGPT** - OpenAI's ChatGPT
 - **Human** - Human-written baseline solutions
 
-## Results
+## Code Results
 
-| Day | Claude CLI | Google Gemini | Human | ChatGPT |
+| Day | Claude CLI | Google Gemini | Human | ChatGPT 5.1 |
 |-----|------------|---------------|-------|---------|
 | **Day 1** | Python<br>30.34ms |Python<br> 🟢 ** 8.92 ms ** |C# <br> 30.1ms |-Python <br> 23.73 ms |
 | **Day 2** | - | - | - | - |
@@ -34,6 +34,25 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 | **Day 12** | - | - | - | - |
 
 **🟢** = Fastest solution for that day
+
+## Correct Results
+Simply given the problem, are the agents able to return the correct results via chat?
+Prompt : "Help me solve the following problem, what is the correct answer to all puzzles?"
+
+| Day | Claude Web | Google Gemini  | ChatGPT 5.1 |
+|-----|------------|---------------|-------|---------|
+| **Day 1** | 🟢 🟢 | 🔴 🟢  | 🟢 🟢| 
+| **Day 2** | - | - | - | 
+| **Day 3** | - | - | - | 
+| **Day 4** | - | - | - | 
+| **Day 5** | - | - | - | 
+| **Day 6** | - | - | - | 
+| **Day 7** | - | - | - | 
+| **Day 8** | - | - | - | 
+| **Day 9** | - | - | - | 
+| **Day 10** | - | - | - | 
+| **Day 11** | - | - | - | 
+| **Day 12** | - | - | - | 
 
 ## Methodology
 
