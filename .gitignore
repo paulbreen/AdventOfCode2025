@@ -56,3 +56,4 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 .claude
+/Day 2/Claude CLI/__pycache__
