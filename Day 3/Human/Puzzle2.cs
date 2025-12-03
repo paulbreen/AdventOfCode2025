@@ -25,6 +25,8 @@ namespace Human
         {
             if (maxSize == -1) return string.Empty;
 
+            if (batteryBank.Length == maxSize) return batteryBank.ToString();
+
             var largest = batteryBank.Take(batteryBank.Length - maxSize).Distinct().Max(c => c);
 
             var indexOfLargest = Array.IndexOf(batteryBank, largest);
