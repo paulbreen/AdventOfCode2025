@@ -22,7 +22,7 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 |-----|------------|---------------|-------|---------|
 | **Day 1** | Python<br>30.34ms |🟢 Python <br>  ** 8.92 ms ** 🟢|C# <br> 21.1ms | Python <br> 23.73 ms |
 | **Day 2** | Python<br> 1155ms | Python<br>1056ms | C# <br> 2756ms | 🟢Python<br>60.3ms 🟢|
-| **Day 3** | - | - | - | - |
+| **Day 3** | Python<br> 7.73ms | Python<br> 115.32ms | C# <br> 20ms | 🟢Rust <br> 0.290ms 🟢|
 | **Day 4** | - | - | - | - |
 | **Day 5** | - | - | - | - |
 | **Day 6** | - | - | - | - |
@@ -42,9 +42,9 @@ Prompt : "Help me solve the following problem, what is the correct answer to all
 
 | Day | Claude Web | Google Gemini  | ChatGPT 5.1 |
 |-----|------------|---------------|---------|
-| **Day 1** | 🟢 🟢 | 🔴 🟢  | 🟢 🟢| 
+| **Day 1** | 🟢 🟢 | 🔴 🟢 | 🟢 🟢| 
 | **Day 2** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
-| **Day 3** | - | - | - | 
+| **Day 3** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 4** | - | - | - | 
 | **Day 5** | - | - | - | 
 | **Day 6** | - | - | - | 
