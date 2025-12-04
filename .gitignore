@@ -57,3 +57,4 @@ TestResult.xml
 nunit-*.xml
 .claude
 /Day 2/Claude CLI/__pycache__
+/Day 4/Claude CLI/__pycache__/*.pyc
