@@ -17,19 +17,17 @@
                     var s = fileInput[i].Split('-');
 
                     ranges.Add((long.Parse(s[0]), long.Parse(s[1])));
-
-                    continue;
                 }
             }
 
-            var sortedRanges  = ranges.OrderBy(x => x.min).ToArray();
+            ranges.Sort((a, b) => a.min.CompareTo(b.min));
 
-            long currentMin = sortedRanges[0].min;
-            long currentMax = sortedRanges[0].max;
+            long currentMin = ranges[0].min;
+            long currentMax = ranges[0].max;
 
-            for(int i = 1; i < sortedRanges.Count(); i++)
+            for(int i = 1; i < ranges.Count; i++)
             {
-                var range = sortedRanges[i];
+                var range = ranges[i];
 
                 if (range.min <= currentMax + 1)
                 {

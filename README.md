@@ -24,7 +24,7 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 | **Day 2** | Python<br> 1155ms | Python<br>1056ms | C# <br> 2756ms | 🟢Python<br>60.3ms 🟢|
 | **Day 3** | Python<br> 7.73ms | Python<br> 115.32ms | C# <br> 20ms | 🟢Rust <br> 0.290ms 🟢|
 | **Day 4** | Python<br> 45ms | Python<br> 402.974ms |🟢 C# <br> 32 ms 🟢 |Python <br> 357.77ms |
-| **Day 5** | - | - | - | - |
+| **Day 5** | Python<br> 4ms | Go<br> 503µs |🟢 C# <br> 14 ms 🟢 |Python <br> 566µs |
 | **Day 6** | - | - | - | - |
 | **Day 7** | - | - | - | - |
 | **Day 8** | - | - | - | - |
@@ -46,7 +46,7 @@ Prompt : "Help me solve the following problem, what is the correct answer to all
 | **Day 2** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 3** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 3** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
-| **Day 5** | - | - | - | 
+| **Day 5** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 6** | - | - | - | 
 | **Day 7** | - | - | - | 
 | **Day 8** | - | - | - | 
