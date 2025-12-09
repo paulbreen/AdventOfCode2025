@@ -20,15 +20,15 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 
 | Day | Claude CLI | Google Gemini | Human | ChatGPT 5.1 |
 |-----|------------|---------------|-------|---------|
-| **Day 1** | Python<br>30.34ms |🟢 Python <br>  ** 8.92 ms ** 🟢|C# <br> 21.1ms | Python <br> 23.73 ms |
-| **Day 2** | Python<br> 1155ms | Python<br>1056ms | C# <br> 2756ms | 🟢Python<br>60.3ms 🟢|
-| **Day 3** | Python<br> 7.73ms | Python<br> 115.32ms | C# <br> 20ms | 🟢Rust <br> 0.290ms 🟢|
-| **Day 4** | Python<br> 45ms | Python<br> 402.974ms | C# <br> 32 ms  |Python <br> 357.77ms |
-| **Day 5** | Python<br> 4ms | Go<br> 503µs | C# <br> 14 ms  |Python <br> 566µs |
-| **Day 6** | 🔴 | Python<br> 124ms | C# <br> 19 ms  |Python <br> 7.77ms |
-| **Day 7** | Python<br> 🟢 🔴 | Python<br> 2.3ms  | C# <br> 19 ms  | Python<br> 🟢 🔴|
-| **Day 7** | Python<br> 973.16ms  | Python<br> 🟢 🔴  | C# <br> 337 ms  | Go <br>  🔴|
-| **Day 9** | - | - | - | - |
+| **Day 1** | Python<br>30.34ms | Python <br>  ** 8.92 ms ** |C# <br> 21.1ms | Python <br> 23.73 ms |
+| **Day 2** | Python<br> 1155ms | Python<br>1056ms | C# <br> 2756ms | Python<br> **60.3ms** |
+| **Day 3** | Python<br> 7.73ms | Python<br> 115.32ms | C# <br> 20ms | Rust <br> **0.290ms** |
+| **Day 4** | Python<br> 45ms | Python<br> 402.974ms |  C# <br> **32 ms**  |Python <br> 357.77ms |
+| **Day 5** | Python<br> 4ms |  Go<br> **503µs**  | C# <br> 14 ms  |Python <br> 566µs |
+| **Day 6** | 🔴 | Python<br> 124ms | C# <br> 19 ms  | Python <br> **7.77ms** |
+| **Day 7** | Python<br> 🟢 🔴 | Python<br> **2.3ms**  | C# <br> 19 ms  | Python<br> 🟢 🔴|
+| **Day 7** | Python<br> 973.16ms  | Python<br> 🟢 🔴  | C# <br> **337** ms  | Go <br>  🔴|
+| **Day 9** | 🔴🔴 | 🔴🔴 | C# <br> 194327 ms | 🔴 🔴 |
 | **Day 10** | - | - | - | - |
 | **Day 11** | - | - | - | - |
 | **Day 12** | - | - | - | - |
@@ -50,7 +50,7 @@ Prompt : "Help me solve the following problem, what is the correct answer to all
 | **Day 6** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 7** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 7** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 |
-| **Day 9** | - | - | - | 
+| **Day 9** | 🔴 🔴 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 10** | - | - | - | 
 | **Day 11** | - | - | - | 
 | **Day 12** | - | - | - | 
