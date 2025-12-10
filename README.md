@@ -29,7 +29,7 @@ The goal is to analyze the approaches, efficiency, and language choices of vario
 | **Day 7** | Python<br> 🟢 🔴 | Python<br> **2.3ms**  | C# <br> 19 ms  | Python<br> 🟢 🔴|
 | **Day 7** | Python<br> 973.16ms  | Python<br> 🟢 🔴  | C# <br> **337** ms  | Go <br>  🔴|
 | **Day 9** | 🔴🔴 | 🔴🔴 | C# <br> 194327 ms | 🔴 🔴 |
-| **Day 10** | - | - | - | - |
+| **Day 10** | 🟢🔴 | 🔴🔴 | C# <br> long time ms  | Python <br>  🟢🟢  9434.514ms|
 | **Day 11** | - | - | - | - |
 | **Day 12** | - | - | - | - |
 
@@ -51,7 +51,7 @@ Prompt : "Help me solve the following problem, what is the correct answer to all
 | **Day 7** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 7** | 🟢 🟢 | 🔴 🔴 | 🟢 🟢 |
 | **Day 9** | 🔴 🔴 | 🔴 🔴 | 🟢 🟢 | 
-| **Day 10** | - | - | - | 
+| **Day 10** | 🟢 🔴 | 🔴 🔴 | 🟢 🟢 | 
 | **Day 11** | - | - | - | 
 | **Day 12** | - | - | - | 
 
